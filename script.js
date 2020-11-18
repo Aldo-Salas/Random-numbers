@@ -1,5 +1,4 @@
-var A
-
-function azar() { 
-    A = Math.round(Math.random() * 100)
-    document.getElementById("numero").innerHTML = (" Tu número es: " + A) }
+function randomNumberGenerator() { 
+    let number = Math.round(Math.random() * 100)
+    document.getElementById("numero").innerHTML = (" Tu número es: " + number)
+}
